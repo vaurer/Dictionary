@@ -37,11 +37,11 @@
             this.btnExportToCsv = new System.Windows.Forms.Button();
             this.btnSearch = new System.Windows.Forms.Button();
             this.tbSearch = new System.Windows.Forms.TextBox();
-            this.tbFind = new System.Windows.Forms.TextBox();
+            this.tbFindEN = new System.Windows.Forms.TextBox();
             this.btnDelete = new System.Windows.Forms.Button();
             this.tbSpanishWord = new System.Windows.Forms.TextBox();
             this.tbTranslationSpanish = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.tbFindES = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // btnAdd
@@ -57,6 +57,7 @@
             this.btnAdd.TabIndex = 0;
             this.btnAdd.Text = "Hinzufügen";
             this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.UseWaitCursor = true;
             this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // tbGermanWord
@@ -67,15 +68,17 @@
             this.tbGermanWord.Size = new System.Drawing.Size(219, 31);
             this.tbGermanWord.TabIndex = 1;
             this.tbGermanWord.Text = "German";
+            this.tbGermanWord.UseWaitCursor = true;
             // 
             // tbEnglishWord
             // 
-            this.tbEnglishWord.Location = new System.Drawing.Point(284, 40);
+            this.tbEnglishWord.Location = new System.Drawing.Point(272, 40);
             this.tbEnglishWord.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tbEnglishWord.Name = "tbEnglishWord";
             this.tbEnglishWord.Size = new System.Drawing.Size(219, 31);
             this.tbEnglishWord.TabIndex = 2;
             this.tbEnglishWord.Text = "English";
+            this.tbEnglishWord.UseWaitCursor = true;
             // 
             // lBoxGermanWords
             // 
@@ -88,6 +91,7 @@
             this.lBoxGermanWords.Size = new System.Drawing.Size(494, 328);
             this.lBoxGermanWords.TabIndex = 4;
             this.lBoxGermanWords.Tag = " ";
+            this.lBoxGermanWords.UseWaitCursor = true;
             this.lBoxGermanWords.SelectedIndexChanged += new System.EventHandler(this.lBoxGermanWords_SelectedIndexChanged);
             // 
             // tbTranslationEnglish
@@ -97,6 +101,7 @@
             this.tbTranslationEnglish.Name = "tbTranslationEnglish";
             this.tbTranslationEnglish.Size = new System.Drawing.Size(167, 31);
             this.tbTranslationEnglish.TabIndex = 5;
+            this.tbTranslationEnglish.UseWaitCursor = true;
             // 
             // btnExportToCsv
             // 
@@ -107,6 +112,7 @@
             this.btnExportToCsv.TabIndex = 6;
             this.btnExportToCsv.Text = "Export to CSV";
             this.btnExportToCsv.UseVisualStyleBackColor = true;
+            this.btnExportToCsv.UseWaitCursor = true;
             this.btnExportToCsv.Click += new System.EventHandler(this.btnExportToCsv_Click);
             // 
             // btnSearch
@@ -122,6 +128,7 @@
             this.btnSearch.TabIndex = 8;
             this.btnSearch.Text = "Search";
             this.btnSearch.UseVisualStyleBackColor = true;
+            this.btnSearch.UseWaitCursor = true;
             this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
             // 
             // tbSearch
@@ -134,14 +141,16 @@
             this.tbSearch.Size = new System.Drawing.Size(316, 31);
             this.tbSearch.TabIndex = 9;
             this.tbSearch.Text = "type german word";
+            this.tbSearch.UseWaitCursor = true;
             // 
-            // tbFind
+            // tbFindEN
             // 
-            this.tbFind.Location = new System.Drawing.Point(516, 159);
-            this.tbFind.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.tbFind.Name = "tbFind";
-            this.tbFind.Size = new System.Drawing.Size(219, 31);
-            this.tbFind.TabIndex = 10;
+            this.tbFindEN.Location = new System.Drawing.Point(516, 159);
+            this.tbFindEN.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.tbFindEN.Name = "tbFindEN";
+            this.tbFindEN.Size = new System.Drawing.Size(219, 31);
+            this.tbFindEN.TabIndex = 10;
+            this.tbFindEN.UseWaitCursor = true;
             // 
             // btnDelete
             // 
@@ -153,6 +162,7 @@
             this.btnDelete.TabIndex = 11;
             this.btnDelete.Text = "Delete All";
             this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.UseWaitCursor = true;
             this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // tbSpanishWord
@@ -163,6 +173,7 @@
             this.tbSpanishWord.Size = new System.Drawing.Size(219, 31);
             this.tbSpanishWord.TabIndex = 12;
             this.tbSpanishWord.Text = "Spanish";
+            this.tbSpanishWord.UseWaitCursor = true;
             // 
             // tbTranslationSpanish
             // 
@@ -171,14 +182,16 @@
             this.tbTranslationSpanish.Name = "tbTranslationSpanish";
             this.tbTranslationSpanish.Size = new System.Drawing.Size(167, 31);
             this.tbTranslationSpanish.TabIndex = 13;
+            this.tbTranslationSpanish.UseWaitCursor = true;
             // 
-            // textBox1
+            // tbFindES
             // 
-            this.textBox1.Location = new System.Drawing.Point(516, 218);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(219, 31);
-            this.textBox1.TabIndex = 14;
+            this.tbFindES.Location = new System.Drawing.Point(516, 218);
+            this.tbFindES.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.tbFindES.Name = "tbFindES";
+            this.tbFindES.Size = new System.Drawing.Size(219, 31);
+            this.tbFindES.TabIndex = 14;
+            this.tbFindES.UseWaitCursor = true;
             // 
             // Form1
             // 
@@ -186,12 +199,13 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Silver;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(769, 736);
-            this.Controls.Add(this.textBox1);
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.ClientSize = new System.Drawing.Size(781, 733);
+            this.Controls.Add(this.tbFindES);
             this.Controls.Add(this.tbTranslationSpanish);
             this.Controls.Add(this.tbSpanishWord);
             this.Controls.Add(this.btnDelete);
-            this.Controls.Add(this.tbFind);
+            this.Controls.Add(this.tbFindEN);
             this.Controls.Add(this.tbSearch);
             this.Controls.Add(this.btnSearch);
             this.Controls.Add(this.btnExportToCsv);
@@ -200,11 +214,15 @@
             this.Controls.Add(this.tbEnglishWord);
             this.Controls.Add(this.tbGermanWord);
             this.Controls.Add(this.btnAdd);
+            this.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.Font = new System.Drawing.Font("Cascadia Code", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Form1";
             this.Text = "Dictionary";
+            this.UseWaitCursor = true;
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -220,11 +238,11 @@
         private System.Windows.Forms.ListBox lBoxGermanWords;
         private System.Windows.Forms.Button btnSearch;
         private System.Windows.Forms.TextBox tbSearch;
-        private System.Windows.Forms.TextBox tbFind;
+        private System.Windows.Forms.TextBox tbFindEN;
         private System.Windows.Forms.Button btnDelete;
         private System.Windows.Forms.TextBox tbSpanishWord;
         private System.Windows.Forms.TextBox tbTranslationSpanish;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox tbFindES;
     }
 }
 
