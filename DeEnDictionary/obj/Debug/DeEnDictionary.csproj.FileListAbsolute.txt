@@ -1,0 +1,10 @@
+C:\Vedran\CC\Dictionary\DeEnDictionary\DeEnDictionary\bin\Debug\DeEnDictionary.exe.config
+C:\Vedran\CC\Dictionary\DeEnDictionary\DeEnDictionary\bin\Debug\DeEnDictionary.exe
+C:\Vedran\CC\Dictionary\DeEnDictionary\DeEnDictionary\bin\Debug\DeEnDictionary.pdb
+C:\Vedran\CC\Dictionary\DeEnDictionary\DeEnDictionary\obj\Debug\DeEnDictionary.csprojAssemblyReference.cache
+C:\Vedran\CC\Dictionary\DeEnDictionary\DeEnDictionary\obj\Debug\DeEnDictionary.Form1.resources
+C:\Vedran\CC\Dictionary\DeEnDictionary\DeEnDictionary\obj\Debug\DeEnDictionary.Properties.Resources.resources
+C:\Vedran\CC\Dictionary\DeEnDictionary\DeEnDictionary\obj\Debug\DeEnDictionary.csproj.GenerateResource.cache
+C:\Vedran\CC\Dictionary\DeEnDictionary\DeEnDictionary\obj\Debug\DeEnDictionary.csproj.CoreCompileInputs.cache
+C:\Vedran\CC\Dictionary\DeEnDictionary\DeEnDictionary\obj\Debug\DeEnDictionary.exe
+C:\Vedran\CC\Dictionary\DeEnDictionary\DeEnDictionary\obj\Debug\DeEnDictionary.pdb
